@@ -23,7 +23,7 @@
                 "NH1816\\Polis\\PolisServiceProvider"
             ],
             "aliases": {
-                "NH1816": "NH1816\\Polis\\Facades\\PolisFacade"
+                "NH1816": "NH1816\\Polis\\Facades\\Initiators\\PolisFacade"
             }
         }
     }
