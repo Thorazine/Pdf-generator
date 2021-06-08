@@ -1,0 +1,30 @@
+{
+    "name": "thorazine/pdf-generator",
+    "description": "Generate a policy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthijs Openneer",
+            "email": "noreply@matthijs.openneer.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NH1816\\Polis\\": "src/"
+        }
+    },
+    "require": {
+        "setasign/fpdf": "1.8.*",
+        "setasign/fpdi": "^2.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NH1816\\Polis\\PolisServiceProvider"
+            ],
+            "aliases": {
+                "NH1816": "NH1816\\Polis\\Facades\\PolisFacade"
+            }
+        }
+    }
+}
